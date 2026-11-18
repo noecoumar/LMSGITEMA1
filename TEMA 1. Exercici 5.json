@@ -1,0 +1,53 @@
+{"encuestas":[
+{"id":1,
+"título":"Preferencias de lectura",
+"activa": true,
+"preguntas": [
+{
+"orden":1,
+"pregunta": "¿Qué género literario prefieres?",
+"tipo": "opcion_multiple",
+"opciones": [
+"romance",
+"fantasía",
+"thriller"
+]
+},
+{
+"orden": 2,
+"pregunta": "¿Cuál es tu libro favorito y por qué?",
+"tipo": "texto_libre"
+}
+]
+},
+{"id": 2,
+"título": "Hábitos de lectura",
+"activa": false,
+"preguntas": [
+{"orden": 1,
+"pregunta": "¿Cuántos libros lees al mes?",
+"tipo": "opcion_multiple",
+"opciones": [
+"Ninguno",
+"Entre 1 y 2",
+"Entre 3 y 5",
+"Más de 5"
+]
+},
+{"orden": 2,
+"pregunta": "¿En qué formato prefieres leer?",
+"tipo": "opcion_multiple",
+"opciones":[
+"Papel",
+"Digital",
+"Audiolibro"
+]
+},
+{"orden": 3,
+"pregunta": "¿En qué momento del día prefieres leer?",
+"tipo": "texto_libre"
+}
+]
+},
+
+
